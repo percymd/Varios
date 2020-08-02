@@ -1,22 +1,15 @@
 
 def mostrar_bienvenida():
     print("Bienvenido a ... ")
-    print("""
-                  _                  __
-       ____ ___  (_)  ________  ____/ /
-      / __ `__ \/ /  / ___/ _ \/ __  /
-     / / / / / / /  / /  /  __/ /_/ /
-    /_/ /_/ /_/_/  /_/   \___/\__,_/
-
-    """)
+    print("MI RED")
 
 def obtener_nombre():
     nombre = input("Para empezar, dime como te llamas. ")
     return nombre
 
 def obtener_edad():
-    agno = int(input("Para preparar tu perfil, dime en qué año naciste. "))
-    return 2017-agno-1
+    año = int(input("Para preparar tu perfil, dime en qué año naciste. "))
+    return 2017-año-1
 
 def obtener_estatura():
     estatura = float(input("Cuéntame más de ti, para agregarlo a tu perfil. ¿Cuánto mides? Dímelo en metros. "))
